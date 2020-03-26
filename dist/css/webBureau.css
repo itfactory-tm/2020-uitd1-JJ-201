@@ -34,4 +34,11 @@ footer p{
     font-size: 15px;
 }
 
+.portfolio-item .caption .caption-content p {
+    font-weight: bold;
+}
+
+.portfolio-item .caption .caption-content h2 {
+    font-size: 20px;
+}
 
