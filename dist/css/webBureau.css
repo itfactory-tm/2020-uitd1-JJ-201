@@ -9,3 +9,12 @@ footer p a{
 .foto_kennis {
     padding-bottom: 10px;
 }
+
+.carousel-indicators li {
+    background-color: #000;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #ecb807;
+}
