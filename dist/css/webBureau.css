@@ -6,6 +6,21 @@ footer p a{
     color: #ecb807;
 }
 
+
 .foto_kennis {
     padding-bottom: 10px;
 }
+
+input{
+   margin-right: 20px;
+}
+
+.center{
+    justify-content: center;
+}
+
+footer p{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
