@@ -43,9 +43,30 @@ footer p{
 }
 
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
     color: #ecb807;
+}
 
 .grote_tekst {
     font-size: 20px;
+}
+
+footer img {
+    padding: 15px;
+}
+
+.scaleimg {
+    transition-duration: 1s;
+}
+
+.scaleimg:hover {
+    transform: scale(1.1);
+}
+
+.copyright {
+    padding-top: 40px;
+}
+
+footer h5 {
+    color: #ecb807;
 }
