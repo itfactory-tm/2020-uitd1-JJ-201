@@ -10,7 +10,7 @@ h1{
 
 section{
     align-content: center;
-
+    padding-left:  25%;
 }
 
 footer h5 {
@@ -30,4 +30,12 @@ footer p{
 footer p a{
     text-decoration: underline;
     color: #ecb807;
+}
+
+.scaleimg {
+    transition-duration: 1s;
+}
+
+.scaleimg:hover {
+    transform: scale(1.1);
 }

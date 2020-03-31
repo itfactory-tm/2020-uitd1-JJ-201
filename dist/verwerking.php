@@ -47,8 +47,8 @@
 </header>
 
 
-
-<section>
+<div class="row">
+<section class=" col-6 col-sm-12 ">
 <?php
 if (isset($_POST["Inputnaam"]) && $_POST["Inputnaam"] != "") {
     echo "<p> Welkom, " . $_POST["Inputnaam"] . "</p>\n";
@@ -78,6 +78,7 @@ if (isset($_POST["aanraden"]) && $_POST["aanraden"] != "") {
 
 ?>
 </section>
+</div>
 
 <!-- Footer -->
 <footer class="footer text-center bg-white">
