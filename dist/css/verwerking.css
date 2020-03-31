@@ -6,6 +6,7 @@ h1{
 .beschrijving{
     text-align: center;
     font-size: 15px;
+    font-weight: bolder;
 }
 
 .container {
@@ -20,6 +21,7 @@ footer h5 {
 
 footer img {
     padding: 15px;
+    margin-top: 30px;
 }
 
 
@@ -44,4 +46,8 @@ footer p a{
 .centreer {
     text-align: center;
     margin-top: 40px;
+}
+
+.bold {
+    font-weight: bolder;
 }

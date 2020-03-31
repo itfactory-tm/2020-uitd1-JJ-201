@@ -20,6 +20,8 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
 
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
 
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -73,7 +75,7 @@
     </header>
 
 
-    <div class="centreer">
+    <div class="centreer bold">
         <section>
             <?php
             if (isset($_POST["Inputnaam"]) && $_POST["Inputnaam"] != "") {
@@ -83,9 +85,9 @@
             }
 
             if (isset($_POST["InputEmail"]) && $_POST["InputEmail"] != "") {
-                echo "<p> Ingevuld bij email: " . $_POST["InputEmail"] . "</p>\n";
+                echo "<p> Ingevuld bij mailadres: " . $_POST["InputEmail"] . "</p>\n";
             } else {
-                echo "<p> Email werd niet ingevuld </p>\n";
+                echo "<p> E-mail werd niet ingevuld </p>\n";
             }
 
 
@@ -96,7 +98,7 @@
             }
 
             if (isset($_POST["aanraden"]) && $_POST["aanraden"] != "") {
-                echo "<p> Ingevuld bij aan te raden? : " . $_POST["aanraden"] . "</p>\n";
+                echo "<p> Ingevuld bij aan te raden: " . $_POST["aanraden"] . "</p>\n";
             } else {
                 echo "<p> Er werd geen recentie gegeven </p>\n";
             }
@@ -124,8 +126,8 @@
                      title="Link naar Github Pieter">
             </a>
             <div class="copyright">
-                <p class="text-muted text-secondary small mb-0">Copyright &copy; Your best option - Webdesign</p>
-                <p class="text-muted text-secondary small mb-0"><a href="https://www.thomasmore.be/">Thomas more</a></p>
+                <p class="text-muted text-secondary mb-0">Copyright &copy; Your best option - Webdesign</p>
+                <p class="text-muted text-secondary mb-0"><a href="https://www.thomasmore.be/">Thomas more</a></p>
             </div>
         </div>
     </footer>

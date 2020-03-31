@@ -6,7 +6,9 @@ footer p a{
     color: #ecb807;
 }
 
-
+body {
+    font-family: 'Lato', sans-serif;
+}
 .foto_kennis {
     padding-bottom: 10px;
 }
@@ -49,10 +51,12 @@ footer p{
 
 .grote_tekst {
     font-size: 20px;
+    font-weight: bolder;
 }
 
 footer img {
     padding: 15px;
+    margin-top: 30px;
 }
 
 .scaleimg {
@@ -65,8 +69,21 @@ footer img {
 
 .copyright {
     padding-top: 40px;
+    font-weight: bold;
 }
 
 footer h5 {
-    color: #ecb807;
+     color: #ecb807;
+ }
+
+.cursief {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.white {
+    color: white;
 }
