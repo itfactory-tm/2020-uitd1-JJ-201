@@ -72,8 +72,8 @@
 </header>
 
 
-<div class="row centreer">
-<section class=" col-6 col-sm-12 ">
+<div class="centreer">
+<section >
 <?php
 if (isset($_POST["Inputnaam"]) && $_POST["Inputnaam"] != "") {
     echo "<p> Welkom, " . $_POST["Inputnaam"] . "</p>\n";
