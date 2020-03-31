@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/stylish-portfolio.min.css">
     <link rel="stylesheet" href="css/verwerking.css">
+
+
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/html5/uitdaging-1/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/html5/uitdaging-1/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/html5/uitdaging-1/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/html5/uitdaging-1/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/html5/uitdaging-1/favicon/safari-pinned-tab.svg" color="#00aba9">
+    <link rel="shortcut icon" href="/html5/uitdaging-1/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-config" content="/html5/uitdaging-1/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
