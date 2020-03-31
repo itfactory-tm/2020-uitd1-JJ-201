@@ -21,19 +21,43 @@
 
 
     <!--favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/html5/uitdagingeen/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/html5/uitdagingeen/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/html5/uitdagingeen/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/html5/uitdagingeen/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/html5/uitdagingeen/favicon/safari-pinned-tab.svg" color="#00aba9">
-    <link rel="shortcut icon" href="/html5/uitdagingeen/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/html5/uitdaging-1/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/html5/uitdaging-1/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/html5/uitdaging-1/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/html5/uitdaging-1/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/html5/uitdaging-1/favicon/safari-pinned-tab.svg" color="#00aba9">
+    <link rel="shortcut icon" href="/html5/uitdaging-1/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#00aba9">
-    <meta name="msapplication-config" content="/html5/uitdagingeen/favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="/html5/uitdaging-1/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-
+<a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+</a>
+<nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+            <a class="js-scroll-trigger" href="index.html#page-top">Your best Option</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="index.html#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="index.html#welkomswoord">Welkomswoord</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="index.html#wie_zijn_wij">Maak kennis met ons team</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="index.html#recente_projecten">Recente projecten</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="index.html#contact">Contact</a>
+        </li>
+    </ul>
+</nav>
 
 <header>
     <div class="container text-center my-auto">
@@ -47,7 +71,7 @@
 </header>
 
 
-<div class="row">
+<div class="row centreer">
 <section class=" col-6 col-sm-12 ">
 <?php
 if (isset($_POST["Inputnaam"]) && $_POST["Inputnaam"] != "") {
