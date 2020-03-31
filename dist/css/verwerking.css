@@ -39,3 +39,7 @@ footer p a{
 .scaleimg:hover {
     transform: scale(1.1);
 }
+
+.centreer {
+    text-align: center;
+}
